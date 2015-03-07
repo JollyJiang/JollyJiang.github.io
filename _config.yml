@@ -1,6 +1,23 @@
-markdown: rdiscount
-permalink: /:year/:month/:title/
-url: http://github.com/JollyJiang
-author: JollyJiang
-pygments: true
-paginate: 24
+markdown: kramdown
+highlighter: pygments
+permalink: blog/:year/:month/:day/:title.html
+paginate: 6
+paginate_path: page/:num
+
+blog:
+    name:                                                JollyJiang
+    description:                                         浴火亦能重生
+    title:                                               JollyJiang的小屋
+    url:                                                 http://jollyjiang.github.io/
+    duoshuo:                                             jollyjiang
+    tongji:                                              1d89a05a868d507f2e896fcca2ac8b25
+    qiniu:                                               # 七牛云地址
+author:
+    name:                                                JollyJiang
+    email:                                               380654010@qq.com
+    weibo:                                               http://weibo.com/jollyhuoer
+    github:                                              http://github.com/JollyJiang
+    logo:                                                # logo地址
+    douban:
+        name:                                            # 豆瓣地址名称
+        key:                                             # 豆瓣API Key
