@@ -17,7 +17,7 @@ author:
     email:                                               380654010@qq.com
     weibo:                                               http://weibo.com/jollyhuoer
     github:                                              http://github.com/JollyJiang
-    logo:                                                # logo地址
+    logo:                                                my_logo.jpg
     douban:
         name:                                            # 豆瓣地址名称
         key:                                             # 豆瓣API Key
