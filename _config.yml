@@ -4,5 +4,3 @@ url: http://github.com/JollyJiang
 author: JollyJiang
 pygments: true
 paginate: 24
-analytics :
-    provider : custom
