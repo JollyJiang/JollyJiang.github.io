@@ -1,0 +1,32 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="icon" href="/res/img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/res/img/favicon.ico" type="image/x-icon">
+  <title>找不到页面了...</title>
+  <link rel="stylesheet" href="/res/css/404.css">
+  <script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8"></script>
+  {% include tongji.html %}
+</head>
+<body>
+  <div class="tips">
+    <p>找不到页面了...</p>
+    <p>一定是你打开方式不对...</p>
+    <p id="view"/>
+  </div>
+  <div id="cloud" class="png"></div>
+</body>
+<script>
+  var t = 60;
+  setInterval("testTime()", 1000);
+  function testTime() {
+    view.innerHTML = t + " 秒后跳转至首页...";
+    if(t == 0) {
+      location="{{ site.blog.url }}";
+    }
+    t--;
+  }
+</script>
+</html>
