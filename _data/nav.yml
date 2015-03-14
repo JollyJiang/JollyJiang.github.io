@@ -1,12 +1,12 @@
-- href: /page/timing.html
+- href: /archive
   icon: fa fa-clock-o
   title: 时间轴
 
-- href: /page/categories.html
+- href: /categories
   icon: fa fa-tags
   title: 分类
 
-- href: /page/tags.html
+- href: /tags
   icon:  fa fa-book
   title: 标签
   
