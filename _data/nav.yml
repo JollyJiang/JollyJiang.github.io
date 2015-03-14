@@ -10,10 +10,10 @@
   icon:  fa fa-book
   title: 标签
   
-- href: /page/messageboard.md
+- href: /guestbook
   icon:  fa fa-clipboard
   title: 留言
 
-- href: /page/about.html
+- href: /about
   icon: fa fa-paper-plane-o
   title: 关于
