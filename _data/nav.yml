@@ -9,6 +9,10 @@
 - href: /page/tags.html
   icon:  fa fa-book
   title: 标签
+  
+- href: /page/messageBoard.md
+  icon:  fa fa-clipboard
+  title: 留言
 
 - href: /page/about.html
   icon: fa fa-paper-plane-o
