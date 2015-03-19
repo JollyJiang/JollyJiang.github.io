@@ -702,6 +702,9 @@ pre code {
 }
 
 
-.archive-list-item-content-img,.archive-list-item-content-lite {
+.archive-list-item-content-img{
 	float:left;
+}
+.archive-list-item-content-lite{
+	display:block;
 }
