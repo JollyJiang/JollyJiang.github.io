@@ -707,7 +707,7 @@ pre code {
 	display:block;
 }
 .archive-list-item-content-img{
-	float:left;
+	display:block;
 }
 .archive-list-item-content-lite{
 	display:block;
