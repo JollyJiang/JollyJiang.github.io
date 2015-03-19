@@ -700,3 +700,8 @@ pre code {
 		margin-left:0;
 	}
 }
+
+#
+.archive-list-item-content-img .archive-list-item-content-lite {
+	float:left;
+}
