@@ -43,18 +43,16 @@ listimgalt: 教程中Eclipse版本
  3. 在“其他”的读或写上打钩（需要读权限就读上打钩，都需要就都打钩），并按确定
  4. 在DDMS的File Explorer 面板里点击/data左边的箭头就可以展开文件列表
 
-####简易流程图
+####截图展示
 
-```flow
-st=>start: 开始
-op_long=>operation: ![在/data文件夹列表上长按](/images/article/rootloaddata/root_load_data_dir_lists_permission_771.png)
-op_permission_setting_enter=>operation: ![进入权限设定](/images/article/rootloaddata/root_load_data_dir_longpress.png)
-op_permission_setting_query=>operation: ![在“其他”的读或写上打钩（需要读权限就读上打钩，都需要就都打钩），并按确定](/images/article/rootloaddata/root_load_data_dir_permission_777.png)
-op_file_explorer=>operation: ![在DDMS的File Explorer 面板里点击/data左边的箭头就可以展开文件列表](/images/article/rootloaddata/fileexplorer_777_accessed.png)
-e=>end: 结束
+![在/data文件夹列表上长按](/images/article/rootloaddata/root_load_data_dir_lists_permission_771.png)
 
-st->op_long->op_permission_setting_enter->op_permission_setting_query->op_file_explorer->e
-```
+![进入权限设定](/images/article/rootloaddata/root_load_data_dir_longpress.png)
+
+![在“其他”的读或写上打钩（需要读权限就读上打钩，都需要就都打钩），并按确定](/images/article/rootloaddata/root_load_data_dir_permission_777.png)
+
+![在DDMS的File Explorer 面板里点击/data左边的箭头就可以展开文件列表](/images/article/rootloaddata/fileexplorer_777_accessed.png)
+
  
 
 
