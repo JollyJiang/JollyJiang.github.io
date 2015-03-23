@@ -20,6 +20,9 @@ listimgalt: 教程中Eclipse版本
 
 <!-- more -->
 
+* 目录
+{:toc}
+
 >本教程使用的Eclipse 版本如下：
 
 >![{{ page.listimgalt }}]({{ page.listimg }})
